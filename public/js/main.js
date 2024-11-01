@@ -4,45 +4,6 @@ $(function () {
   ("use strict");
 
 		var wind = $(window);
-		var parallaxSlider;
-		var parallaxSliderOptions = {
-			speed: 1500,
-			autoplay: {
-				delay: 5000,
-				disableOnInteraction: false,
-				pauseOnMouseEnter: true
-			},
-			parallax: true,
-			loop: true,
-
-			on: {
-				init: function () {
-					var swiper = this;
-					for (var i = 0; i < swiper.slides.length; i++) {
-						$(swiper.slides[i])
-							.find('.bg-img')
-							.attr({
-								'data-swiper-parallax': 0.75 * swiper.width
-							});
-					}
-				},
-				resize: function () {
-					this.update();
-				}
-			},
-
-			pagination: {
-				el: '.slider-prlx .parallax-slider .swiper-pagination',
-				dynamicBullets: true,
-				clickable: true
-			},
-
-			navigation: {
-				nextEl: '.slider-prlx .parallax-slider .next-ctrl',
-				prevEl: '.slider-prlx .parallax-slider .prev-ctrl'
-			}
-		};
-		parallaxSlider = new Swiper('.slider-prlx .parallax-slider', parallaxSliderOptions);
 	
 		// Var Background image
 		var pageSection = $(".bg-img, section");
