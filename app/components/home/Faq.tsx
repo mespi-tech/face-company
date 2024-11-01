@@ -21,19 +21,19 @@ function Faq() {
 					<div className="faq-accordion first-faq-box">
 						<ul className="accordion">
 							<li className="accordion-item">
-								<Link className="accordion-title active" href="javascript:void(0)"> <i className="fa fa-plus"></i> How long does a website redesign take?</Link>
+								<Link className="accordion-title active" href="#"> <i className="fa fa-plus"></i> How long does a website redesign take?</Link>
 								<p className="accordion-content show">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat officia deserunt mollit anim laborum</p>
 							</li>
 							<li className="accordion-item">
-								<Link className="accordion-title" href="javascript:void(0)"> <i className="fa fa-plus"></i> What happens if my site breaks?</Link>
+								<Link className="accordion-title" href="#"> <i className="fa fa-plus"></i> What happens if my site breaks?</Link>
 								<p className="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat officia deserunt mollit anim laborum</p>
 							</li>
 							<li className="accordion-item">
-								<Link className="accordion-title" href="javascript:void(0)"> <i className="fa fa-plus"></i> Can you handle ongoing maintenance?</Link>
+								<Link className="accordion-title" href="#"> <i className="fa fa-plus"></i> Can you handle ongoing maintenance?</Link>
 								<p className="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat officia deserunt mollit anim laborum</p>
 							</li>
 							<li className="accordion-item">
-								<Link className="accordion-title" href="javascript:void(0)"> <i className="fa fa-plus"></i> Do you only create WordPress websites?</Link>
+								<Link className="accordion-title" href="#"> <i className="fa fa-plus"></i> Do you only create WordPress websites?</Link>
 								<p className="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat officia deserunt mollit anim laborum</p>
 							</li>
 						</ul>
