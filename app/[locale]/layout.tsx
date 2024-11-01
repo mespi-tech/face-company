@@ -47,9 +47,10 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <NextIntlClientProvider messages={messages}>
         <body
+          suppressHydrationWarning={true}
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <MuiThemeProvider>
