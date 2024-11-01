@@ -16,7 +16,7 @@ function Footer() {
 					</div>
 					<div className="col-lg-6 col-md-6">
 						<form className="newsletter-form">
-							<input type="email" className="input-newsletter" name="email" placeholder="Enter Your Email" required autoComplete="off"/>
+							<input type="email" className="input-newsletter" name="email" placeholder="Enter Your Email" required/>
 							<button type="submit">Subscribe Now</button>
 						</form>
 					</div>

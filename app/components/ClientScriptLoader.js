@@ -5,14 +5,11 @@ const ClientScriptLoader = () => {
   useEffect(() => {
     const loadScript = async () => {
       if (typeof window !== "undefined") {
-        // Tải jQuery trước
         const $ = (await import('jquery')).default;
 
-        // Gán jQuery vào window để chắc chắn jQuery đã sẵn sàng
         window.jQuery = $;
         window.$ = $;
 
-        // Tải file main.js sau khi jQuery đã sẵn sàng
         await import('../../public/js/wow.min');
         await import('../../public/js/vegas.min');
         await import('../../public/js/vegas-custom');
