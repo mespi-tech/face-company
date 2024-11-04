@@ -4,4 +4,4 @@ const config = {
   exclude: ['/admin', '/private'],
 };
 
-export default config;
+module.exports = config;

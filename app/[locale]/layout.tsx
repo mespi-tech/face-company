@@ -53,6 +53,12 @@ export default async function RootLayout({
           suppressHydrationWarning={true}
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
+          {/* <div className="preloader">
+            <div className="loader">
+              <div className="shadow"></div>
+              <div className="box"></div>
+            </div>
+          </div> */}
           <MuiThemeProvider>
             <ClientScriptLoader />
             <Navbar />
