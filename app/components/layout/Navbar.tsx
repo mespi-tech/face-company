@@ -3,13 +3,31 @@
 import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { useEffect } from "react";
+import $ from 'jquery';
+
 
 function Navbar() {
   const pathname = usePathname();
-  console.log('pathname', pathname)
+
+  useEffect(() => {
+    const handlePreloader = () => {
+      $('.preloader').removeClass('preloader-deactivate');
+      setTimeout(() => $('.preloader').addClass('preloader-deactivate'), 800);
+    };
+
+    handlePreloader();
+  }, [pathname]);
+
   const isLocaleOnlyPath = /^\/(vi|en)(\/)?$/.test(pathname || '');
   return (
     <>
+      <div className="preloader">
+        <div className="loader">
+          <div className="shadow"></div>
+          <div className="box"></div>
+        </div>
+      </div>
       <div className="navbar-section">
         <div className="techvio-responsive-nav">
           <div className="container">

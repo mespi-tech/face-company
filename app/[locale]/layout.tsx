@@ -8,7 +8,6 @@ import ClientScriptLoader from "../components/ClientScriptLoader";
 
 import "../../public/css/animate.min.css";
 import "../../public/css/bootstrap-icons.css";
-import "../../public/css/bootstrap.min.css";
 import "../../public/css/flaticon.css";
 import "../../public/css/fontawesome.min.css";
 import "../../public/css/magnific-popup.min.css";
@@ -18,6 +17,7 @@ import "../../public/css/swiper.min.css";
 import "../../public/css/vegas.min.css";
 import "../../public/css/responsive.css";
 import "../../public/css/style.css";
+import "../../public/css/bootstrap.min.css";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import CopyRight from "../components/layout/CopyRight";
@@ -53,12 +53,6 @@ export default async function RootLayout({
           suppressHydrationWarning={true}
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          {/* <div className="preloader">
-            <div className="loader">
-              <div className="shadow"></div>
-              <div className="box"></div>
-            </div>
-          </div> */}
           <MuiThemeProvider>
             <ClientScriptLoader />
             <Navbar />
