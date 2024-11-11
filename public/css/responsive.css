@@ -9,6 +9,8 @@
 
 @media only screen and (max-width: 767px) {
 
+	.techvio-navbar-addon {display: none !important;}
+
 	.section-title h2 {
 		font-size: 35px;
 	}
@@ -507,8 +509,10 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
+	.techvio-navbar-addon { display: none !important;}
+
 	.navbar-section .other-option {
-		display: none;
+		display: none !important;
 	}
 
 	.techvio-nav .navbar .navbar-nav {

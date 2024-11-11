@@ -17,9 +17,13 @@ $(function () {
 		$(window).on('scroll',function() {
             if ($(this).scrollTop() > 120){  
                 $('.navbar-section').addClass("is-sticky");
+                $('.techvio-navbar-addon__info').addClass("techvio-navbar-addon__info-sticky");
+                $('.techvio-navbar-addon').addClass("techvio-navbar-addon__sticky");
             }
             else{
                 $('.navbar-section').removeClass("is-sticky");
+                $('.techvio-navbar-addon__info').removeClass("techvio-navbar-addon__info-sticky");
+                $('.techvio-navbar-addon').removeClass("techvio-navbar-addon__sticky");
             }
         });
         

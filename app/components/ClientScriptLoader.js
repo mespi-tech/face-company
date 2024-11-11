@@ -17,6 +17,7 @@ const ClientScriptLoader = () => {
         await import('../../public/js/swiper.min');
         await import('../../public/js/popper.min');
         await import('../../public/js/particles.min');
+        await import('../../public/js/particles-app');
         await import('../../public/js/owl.carousel.min');
         await import('../../public/js/jquery.waypoints.min');
         await import('../../public/js/jquery.min');
