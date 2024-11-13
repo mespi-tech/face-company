@@ -2,10 +2,10 @@ import { Metadata } from "next";
 // import MainHome from "../components/home/MainHome";
 import Services from "../components/home/Services";
 import AboutHome from "../components/home/AboutHome";
-import Portfolio from "../components/home/Portfolio";
+// import Portfolio from "../components/home/Portfolio";
 import WorksProcess from "../components/layout/WorksProcess";
 import Counter from "../components/layout/Counter";
-import Testimonial from "../components/home/Testimonial";
+// import Testimonial from "../components/home/Testimonial";
 import Faq from "../components/home/Faq";
 import Hire from "../components/layout/Hire";
 import BlogHome from "../components/home/BlogHome";
@@ -30,10 +30,10 @@ export default function HomePage() {
             <HomeThree />
             <Services />
             <AboutHome />
-            <Portfolio />
+            {/* <Portfolio /> */}
             <WorksProcess />
             <Counter />
-            <Testimonial />
+            {/* <Testimonial /> */}
             <Faq />
             <Hire />
             <BlogHome />

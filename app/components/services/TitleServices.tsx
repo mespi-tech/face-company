@@ -1,4 +1,4 @@
-import { Link } from '@/i18n/routing'
+// import { Link } from '@/i18n/routing'
 import React from 'react'
 
 function TitleServices() {
@@ -10,10 +10,10 @@ function TitleServices() {
 	    			<div className="container">
 	    				<div className="page-title-content">
 	    					<h2>Services</h2>
-	    					<ul>
+	    					{/* <ul>
 	    						<li><Link href="/">Home</Link></li>
 	    						<li>Services 3</li>
-	    					</ul>
+	    					</ul> */}
 	    				</div>
 	    			</div>
 	    		</div>

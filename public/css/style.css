@@ -2631,6 +2631,7 @@ p:last-child {
     -webkit-transition: 0.4s;
     transition: 0.4s;
     margin-top: 35px;
+	height: 350px;
 }
 
 .workprocess-single-item:hover {
@@ -3530,10 +3531,12 @@ p:last-child {
 	font-size: 16px;
 	font-weight: 400;
 	margin: 0;
+	height: 125px;
 }
 
 .blog-single-item .blog-description .blog-text a {
 	text-decoration: none;
+	color: #404040 !important
 }
 
 .blog-single-item .blog-description .blog-text .blog-btn {
